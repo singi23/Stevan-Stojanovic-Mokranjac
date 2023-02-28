@@ -1,0 +1,94 @@
+html {
+  background-image: url("music-note.jpg");
+  background-size: cover;
+  background-position: top center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  padding: 40px; 
+}
+body {
+  font-family: "Segoe UI", "Roboto",
+    "Helvetica Neue", Arial, sans-serif;
+  font-size: 17px;
+  color: black;
+  border: 2px solid gray;
+  background: rgba(255, 255, 255, 0.911);
+  border-radius: 5px;
+  width: 80%;
+  margin: auto;
+  padding: 25px;
+}
+
+#name {
+    padding: 25px;
+}
+
+#name h1{
+    font-size: 30px;
+    text-align: center;
+}
+
+#name h2 {   
+    font-weight: 400;
+    text-align: center;
+}
+
+#name h3 {   
+    font-weight: 400;
+    text-align: center;
+}
+
+
+#info p {
+    text-align: left;
+    padding: 25px;
+    margin: 0 50px 0 50px;
+}
+
+#info h3 {
+    text-align: left;
+    padding: 25px;
+    font-size: 25px;
+    margin: 0 50px 0 50px;
+}
+
+#info h4 {
+    text-align: left;
+    font-weight: 400;
+    padding: 25px;
+    font-size: 15px;
+    margin: 0 50px 0 50px;
+}
+
+#img {
+  max-width: 40%;
+  position: center;
+  height: auto;
+  border: 2px solid gray;
+  border-radius: 5px;
+  margin: 0 auto;
+}
+#img-div {
+  text-align: center;
+}
+#img-caption {
+  font-size: 1rem;
+  font-weight: 100;
+  display: block;
+}
+
+ul {
+  margin: 0 50px 0 50px;
+  text-align: left;
+  line-height: 1.5;
+}
+
+ol {
+    margin: 0 50px 0 50px;
+    text-align: left;
+    line-height: 1.5;
+}
+
+footer {
+  padding: 40px;
+}
